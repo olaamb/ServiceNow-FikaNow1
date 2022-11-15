@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="92a018f32f4b91102eab837cf699b62f" extends="task" label="Fika Request" max_length="40" name="x_938844_fikanow_fika_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" mandatory="true" max_length="40" name="u_delivery_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Floor" mandatory="true" max_length="40" name="u_floor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="drinks" label="Item Type" max_length="40" name="u_item_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Drinks" sequence="0" value="drinks"/>
+                <element inactive_on_update="false" label="Pastry" sequence="1" value="pastry"/>
+                <element inactive_on_update="false" label="Fruit" sequence="2" value="fruit"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requested Date" max_length="40" name="u_requested_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" hint="Either you or someone you are requesting fika for." label="Requester" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Room" mandatory="true" max_length="40" name="u_room" type="string"/>
+    </element>
+</database>
