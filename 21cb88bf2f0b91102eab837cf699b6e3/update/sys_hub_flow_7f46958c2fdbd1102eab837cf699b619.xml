@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>fika_item_request</internal_name>
+        <label_cache>[{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.record.request","label":"1 - Update Record➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.table_name","label":"5 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.record","label":"5 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.table_name","label":"1 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.record","label":"1 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccfe8697-580f-4d66-8604-91eff1511796.Catalog Task","label":"2 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccfe8697-580f-4d66-8604-91eff1511796.__action_status__","label":"2 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccfe8697-580f-4d66-8604-91eff1511796.__dont_treat_as_error__","label":"2 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c12083c2-f20e-4401-9351-4192af49cdfb.email","label":"3 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c12083c2-f20e-4401-9351-4192af49cdfb.__action_status__","label":"3 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c12083c2-f20e-4401-9351-4192af49cdfb.__dont_treat_as_error__","label":"3 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Service Catalog_1.request_item.requested_for.manager.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Service Catalog_1.request_item.requested_for.name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Service Catalog_1.request_item.requested_for.manager.name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.record","label":"4 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.table_name","label":"4 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.ordered_item_link.name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Ordered item link➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sc_ordered_item_link","column_name":"name"},{"name":"Service Catalog_1.request_item.cmdb_ci.cost","label":"Trigger - Service Catalog➛Requested Item Record➛Configuration item (cmdb_ci)➛Cost","reference":"","reference_display":"Cost","type":"float","base_type":"float","parent_table_name":"cmdb_ci","column_name":"cost"},{"name":"Service Catalog_1.request_item.quantity","label":"Trigger - Service Catalog➛Requested Item Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"sc_req_item","column_name":"quantity"},{"name":"Service Catalog_1.request_item.price","label":"Trigger - Service Catalog➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"}]</label_cache>
+        <master_snapshot>9e23b18c2f5fd1102eab837cf699b657</master_snapshot>
+        <name>Fika Item Request</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>5433358c2f5fd1102eab837cf699b69b</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:35:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f46958c2fdbd1102eab837cf699b619</sys_id>
+        <sys_name>Fika Item Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sys_hub_flow_7f46958c2fdbd1102eab837cf699b619</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5433358c2f5fd1102eab837cf699b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:33</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7f46958c2fdbd1102eab837cf699b619^sys_idNOT INed4715802f1fd1102eab837cf699b682"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>ed4715802f1fd1102eab837cf699b682</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed4715802f1fd1102eab837cf699b682"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7f46958c2fdbd1102eab837cf699b619^sys_idNOT IN7b46958c2fdbd1102eab837cf699b61a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7f46958c2fdbd1102eab837cf699b619</id>
+        <name>Fika Item Request</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:35:22</sys_created_on>
+        <sys_id>7b46958c2fdbd1102eab837cf699b61a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:35:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7b46958c2fdbd1102eab837cf699b61a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7f46958c2fdbd1102eab837cf699b619^sys_idNOT IN214715802f1fd1102eab837cf699b66b,e14715802f1fd1102eab837cf699b66f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</model>
+        <model_id>7f46958c2fdbd1102eab837cf699b619</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7f46958c2fdbd1102eab837cf699b619</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>214715802f1fd1102eab837cf699b66b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 15:52:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</model>
+        <model_id>7f46958c2fdbd1102eab837cf699b619</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7f46958c2fdbd1102eab837cf699b619</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>e14715802f1fd1102eab837cf699b66f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 15:52:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7f46958c2fdbd1102eab837cf699b619^sys_idNOT IN65fb2d442f5fd1102eab837cf699b631,a14715802f1fd1102eab837cf699b688,a1fb2d442f5fd1102eab837cf699b638,adfb2d442f5fd1102eab837cf699b627,e2f23d4c2f5fd1102eab837cf699b682"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Send email to Requester that the request has been registered</comment>
+        <display_text/>
+        <flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>65fb2d442f5fd1102eab837cf699b631</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <ui_id>c12083c2-f20e-4401-9351-4192af49cdfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=65fb2d442f5fd1102eab837cf699b631"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>65fb2d442f5fd1102eab837cf699b631</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>25fb2d442f5fd1102eab837cf699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <value>Fika time!﻿</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>65fb2d442f5fd1102eab837cf699b631</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>61fb2d442f5fd1102eab837cf699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=65fb2d442f5fd1102eab837cf699b631"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>65fb2d442f5fd1102eab837cf699b631</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>69fb2d442f5fd1102eab837cf699b633</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:99dad230-98ad-4c60-a78d-57e3f724efe0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:99dad230-98ad-4c60-a78d-57e3f724efe0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Service Catalog &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Service Catalog&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_99dad230-98ad-4c60-a78d-57e3f724efe0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, you&amp;acute;re request for fika is on its way.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Name: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:7c24bb1b-9cf8-40a4-9fc8-e165c9a8c70a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:7c24bb1b-9cf8-40a4-9fc8-e165c9a8c70a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Requested Item Record &amp;gt; Item &amp;gt; Ordered item link &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_7c24bb1b-9cf8-40a4-9fc8-e165c9a8c70a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Cost: &lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:34472e8b-9a91-47bc-9b1e-154924d56fc5}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Requested Item Record &amp;gt; Configuration item (cmdb_ci) &amp;gt; Cost"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Cost&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_34472e8b-9a91-47bc-9b1e-154924d56fc5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Quantity:&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d9aee9f1-33d2-4963-af3d-e01a6b03d960}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Requested Item Record &amp;gt; Quantity"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Quantity&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d9aee9f1-33d2-4963-af3d-e01a6b03d960" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Price:&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:922f6b27-7149-4d10-b38b-4273bae86b41}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Requested Item Record &amp;gt; Price"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Price&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_922f6b27-7149-4d10-b38b-4273bae86b41" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>65fb2d442f5fd1102eab837cf699b631</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>edfb2d442f5fd1102eab837cf699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>65fb2d442f5fd1102eab837cf699b631</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>2dfb2d442f5fd1102eab837cf699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>65fb2d442f5fd1102eab837cf699b631</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>a5fb2d442f5fd1102eab837cf699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=65fb2d442f5fd1102eab837cf699b631"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=65fb2d442f5fd1102eab837cf699b631"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>a14715802f1fd1102eab837cf699b688</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <ui_id>f684831e-eef1-4644-a15f-d1bf1e38074d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a14715802f1fd1102eab837cf699b688"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a14715802f1fd1102eab837cf699b688</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>294715802f1fd1102eab837cf699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:39:35</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a14715802f1fd1102eab837cf699b688</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>614715802f1fd1102eab837cf699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:39:35</sys_updated_on>
+        <value>state=-5</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a14715802f1fd1102eab837cf699b688"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a14715802f1fd1102eab837cf699b688</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>ed4715802f1fd1102eab837cf699b68a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:39:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a14715802f1fd1102eab837cf699b688</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>254715802f1fd1102eab837cf699b68a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:39:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a14715802f1fd1102eab837cf699b688</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>2d4715802f1fd1102eab837cf699b68a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:39:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a14715802f1fd1102eab837cf699b688"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a14715802f1fd1102eab837cf699b688"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Set Requested Item Record State to Closed Complete</comment>
+        <display_text/>
+        <flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>a1fb2d442f5fd1102eab837cf699b638</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <ui_id>e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a1fb2d442f5fd1102eab837cf699b638"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a1fb2d442f5fd1102eab837cf699b638</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>a1fb2d442f5fd1102eab837cf699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:59</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a1fb2d442f5fd1102eab837cf699b638</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>edfb2d442f5fd1102eab837cf699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:59</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a1fb2d442f5fd1102eab837cf699b638"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a1fb2d442f5fd1102eab837cf699b638</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>6dfb2d442f5fd1102eab837cf699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{f684831e-eef1-4644-a15f-d1bf1e38074d.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a1fb2d442f5fd1102eab837cf699b638</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>e5fb2d442f5fd1102eab837cf699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a1fb2d442f5fd1102eab837cf699b638</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>a9fb2d442f5fd1102eab837cf699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a1fb2d442f5fd1102eab837cf699b638"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a1fb2d442f5fd1102eab837cf699b638"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent/>
+        <comment>Order a Fika</comment>
+        <display_text/>
+        <flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>adfb2d442f5fd1102eab837cf699b627</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <ui_id>ccfe8697-580f-4d66-8604-91eff1511796</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=adfb2d442f5fd1102eab837cf699b627"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>adfb2d442f5fd1102eab837cf699b627</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>65fb2d442f5fd1102eab837cf699b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <value>state=1</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>adfb2d442f5fd1102eab837cf699b627</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>6dfb2d442f5fd1102eab837cf699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <value>Deliver Fika﻿</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=adfb2d442f5fd1102eab837cf699b627"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>adfb2d442f5fd1102eab837cf699b627</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>e9fb2d442f5fd1102eab837cf699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>adfb2d442f5fd1102eab837cf699b627</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>29fb2d442f5fd1102eab837cf699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{f684831e-eef1-4644-a15f-d1bf1e38074d.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>adfb2d442f5fd1102eab837cf699b627</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:58</sys_created_on>
+        <sys_id>61fb2d442f5fd1102eab837cf699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=adfb2d442f5fd1102eab837cf699b627"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=adfb2d442f5fd1102eab837cf699b627"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Set Request Record State to Closed Complete</comment>
+        <display_text/>
+        <flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:40:38</sys_created_on>
+        <sys_id>e2f23d4c2f5fd1102eab837cf699b682</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <ui_id>e2f391e9-6acb-4172-8642-b3d791cea915</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e2f23d4c2f5fd1102eab837cf699b682"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e2f23d4c2f5fd1102eab837cf699b682</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:40:38</sys_created_on>
+        <sys_id>36f23d4c2f5fd1102eab837cf699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:40:38</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e2f23d4c2f5fd1102eab837cf699b682</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:40:38</sys_created_on>
+        <sys_id>3ef23d4c2f5fd1102eab837cf699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:40:38</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e2f23d4c2f5fd1102eab837cf699b682"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e2f23d4c2f5fd1102eab837cf699b682</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:40:38</sys_created_on>
+        <sys_id>b2f23d4c2f5fd1102eab837cf699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{f684831e-eef1-4644-a15f-d1bf1e38074d.record.request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e2f23d4c2f5fd1102eab837cf699b682</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:40:38</sys_created_on>
+        <sys_id>2af23d4c2f5fd1102eab837cf699b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e2f23d4c2f5fd1102eab837cf699b682</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:40:38</sys_created_on>
+        <sys_id>fef23d4c2f5fd1102eab837cf699b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2f23d4c2f5fd1102eab837cf699b682"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e2f23d4c2f5fd1102eab837cf699b682"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7f46958c2fdbd1102eab837cf699b619^sys_idNOT IN3d9656c42f1315102eab837cf699b6b2,799656c42f1315102eab837cf699b6b2,b19656c42f1315102eab837cf699b6b2,e1fb2d442f5fd1102eab837cf699b63c,e9fb2d442f5fd1102eab837cf699b63b,fd9656c42f1315102eab837cf699b6b2"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f46958c2fdbd1102eab837cf699b619</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.quantity}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 16:16:13</sys_created_on>
+        <sys_id>3d9656c42f1315102eab837cf699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d9aee9f1-33d2-4963-af3d-e01a6b03d960</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f46958c2fdbd1102eab837cf699b619</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.cmdb_ci.cost}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 16:16:13</sys_created_on>
+        <sys_id>799656c42f1315102eab837cf699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>34472e8b-9a91-47bc-9b1e-154924d56fc5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f46958c2fdbd1102eab837cf699b619</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.cat_item.ordered_item_link.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 16:16:13</sys_created_on>
+        <sys_id>b19656c42f1315102eab837cf699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7c24bb1b-9cf8-40a4-9fc8-e165c9a8c70a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f46958c2fdbd1102eab837cf699b619</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.manager.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>e1fb2d442f5fd1102eab837cf699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d140b557-6854-4c4f-8564-901185faee70</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f46958c2fdbd1102eab837cf699b619</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:09:59</sys_created_on>
+        <sys_id>e9fb2d442f5fd1102eab837cf699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:09:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>99dad230-98ad-4c60-a78d-57e3f724efe0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7f46958c2fdbd1102eab837cf699b619</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.price}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 16:16:13</sys_created_on>
+        <sys_id>fd9656c42f1315102eab837cf699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:16:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>922f6b27-7149-4d10-b38b-4273bae86b41</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7f46958c2fdbd1102eab837cf699b619^sys_idNOT IN254715802f1fd1102eab837cf699b66e,e54715802f1fd1102eab837cf699b673"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7f46958c2fdbd1102eab837cf699b619</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>254715802f1fd1102eab837cf699b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:39:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7f46958c2fdbd1102eab837cf699b619</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:39:35</sys_created_on>
+        <sys_id>e54715802f1fd1102eab837cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:39:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7f46958c2fdbd1102eab837cf699b619^sys_idNOT IN5c33358c2f5fd1102eab837cf699b69b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5c33358c2f5fd1102eab837cf699b69b","name":"plan","plan_signature":null}}</plan>
+        <plan_id>7f46958c2fdbd1102eab837cf699b619</plan_id>
+        <snapshot>9267f9042f9fd1102eab837cf699b6ff</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c33358c2f5fd1102eab837cf699b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:34</sys_updated_on>
+        <trigger display_value="">5433358c2f5fd1102eab837cf699b69b</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7f46958c2fdbd1102eab837cf699b619"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>fika_item_request</internal_name>
+        <label_cache>[{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.record.request","label":"1 - Update Record➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.table_name","label":"5 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2f391e9-6acb-4172-8642-b3d791cea915.record","label":"5 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.table_name","label":"1 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f684831e-eef1-4644-a15f-d1bf1e38074d.record","label":"1 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccfe8697-580f-4d66-8604-91eff1511796.Catalog Task","label":"2 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccfe8697-580f-4d66-8604-91eff1511796.__action_status__","label":"2 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccfe8697-580f-4d66-8604-91eff1511796.__dont_treat_as_error__","label":"2 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c12083c2-f20e-4401-9351-4192af49cdfb.email","label":"3 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c12083c2-f20e-4401-9351-4192af49cdfb.__action_status__","label":"3 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c12083c2-f20e-4401-9351-4192af49cdfb.__dont_treat_as_error__","label":"3 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Service Catalog_1.request_item.requested_for.manager.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Service Catalog_1.request_item.requested_for.name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Service Catalog_1.request_item.requested_for.manager.name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.record","label":"4 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.table_name","label":"4 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Fika Item Request</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e23b18c2f5fd1102eab837cf699b657</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:25</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9e23b18c2f5fd1102eab837cf699b657^sys_idNOT IN1f23f18c2f5fd1102eab837cf699b676"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>1f23f18c2f5fd1102eab837cf699b676</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:34</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f23f18c2f5fd1102eab837cf699b676"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9e23b18c2f5fd1102eab837cf699b657^sys_idNOT IN5223b18c2f5fd1102eab837cf699b659"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9e23b18c2f5fd1102eab837cf699b657</id>
+        <name>Fika Item Request</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:26</sys_created_on>
+        <sys_id>5223b18c2f5fd1102eab837cf699b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:26</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5223b18c2f5fd1102eab837cf699b659"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9e23b18c2f5fd1102eab837cf699b657^sys_idNOT INd623b18c2f5fd1102eab837cf699b65a,fa23b18c2f5fd1102eab837cf699b6ba"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</model>
+        <model_id>9e23b18c2f5fd1102eab837cf699b657</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9e23b18c2f5fd1102eab837cf699b657</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:26</sys_created_on>
+        <sys_id>d623b18c2f5fd1102eab837cf699b65a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</model>
+        <model_id>9e23b18c2f5fd1102eab837cf699b657</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9e23b18c2f5fd1102eab837cf699b657</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:27</sys_created_on>
+        <sys_id>fa23b18c2f5fd1102eab837cf699b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9e23b18c2f5fd1102eab837cf699b657^sys_idNOT IN0323f18c2f5fd1102eab837cf699b65c,1f23f18c2f5fd1102eab837cf699b674,4f23f18c2f5fd1102eab837cf699b644,7a23b18c2f5fd1102eab837cf699b6fc,d323f18c2f5fd1102eab837cf699b66f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Send email to Requester and his/her manager confirming that the request has been registered</comment>
+        <display_text/>
+        <flow display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>0323f18c2f5fd1102eab837cf699b65c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <ui_id>c12083c2-f20e-4401-9351-4192af49cdfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0323f18c2f5fd1102eab837cf699b65c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0323f18c2f5fd1102eab837cf699b65c</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>5f23f18c2f5fd1102eab837cf699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <value>Fika time!﻿</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0323f18c2f5fd1102eab837cf699b65c</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>9b23f18c2f5fd1102eab837cf699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0323f18c2f5fd1102eab837cf699b65c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>0323f18c2f5fd1102eab837cf699b65c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>8323f18c2f5fd1102eab837cf699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:99dad230-98ad-4c60-a78d-57e3f724efe0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:99dad230-98ad-4c60-a78d-57e3f724efe0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_99dad230-98ad-4c60-a78d-57e3f724efe0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, you&amp;acute;re request for fika is on its way.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your manager&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:d140b557-6854-4c4f-8564-901185faee70}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Requested Item Record &amp;gt; Requested for &amp;gt; Manager &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_d140b557-6854-4c4f-8564-901185faee70" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; has been notified and will be the approver.&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>0323f18c2f5fd1102eab837cf699b65c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>1b23f18c2f5fd1102eab837cf699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>0323f18c2f5fd1102eab837cf699b65c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>5723f18c2f5fd1102eab837cf699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>0323f18c2f5fd1102eab837cf699b65c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>cf23f18c2f5fd1102eab837cf699b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Service Catalog_1.request_item.requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0323f18c2f5fd1102eab837cf699b65c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0323f18c2f5fd1102eab837cf699b65c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>1f23f18c2f5fd1102eab837cf699b674</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <ui_id>e2f391e9-6acb-4172-8642-b3d791cea915</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f23f18c2f5fd1102eab837cf699b674"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f23f18c2f5fd1102eab837cf699b674</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>1b23f18c2f5fd1102eab837cf699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f23f18c2f5fd1102eab837cf699b674</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>5723f18c2f5fd1102eab837cf699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f23f18c2f5fd1102eab837cf699b674"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1f23f18c2f5fd1102eab837cf699b674</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>d323f18c2f5fd1102eab837cf699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{f684831e-eef1-4644-a15f-d1bf1e38074d.record.request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1f23f18c2f5fd1102eab837cf699b674</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>5f23f18c2f5fd1102eab837cf699b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1f23f18c2f5fd1102eab837cf699b674</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>1323f18c2f5fd1102eab837cf699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1f23f18c2f5fd1102eab837cf699b674"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1f23f18c2f5fd1102eab837cf699b674"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <comment>Order a Fika</comment>
+        <display_text/>
+        <flow display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>4f23f18c2f5fd1102eab837cf699b644</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <ui_id>ccfe8697-580f-4d66-8604-91eff1511796</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4f23f18c2f5fd1102eab837cf699b644"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f23f18c2f5fd1102eab837cf699b644</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>4723f18c2f5fd1102eab837cf699b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <value>state=1</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f23f18c2f5fd1102eab837cf699b644</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>8323f18c2f5fd1102eab837cf699b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <value>Deliver Fika﻿</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4f23f18c2f5fd1102eab837cf699b644"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>4f23f18c2f5fd1102eab837cf699b644</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>0323f18c2f5fd1102eab837cf699b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>4f23f18c2f5fd1102eab837cf699b644</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>4f23f18c2f5fd1102eab837cf699b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{f684831e-eef1-4644-a15f-d1bf1e38074d.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>4f23f18c2f5fd1102eab837cf699b644</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>8b23f18c2f5fd1102eab837cf699b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4f23f18c2f5fd1102eab837cf699b644"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f23f18c2f5fd1102eab837cf699b644"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>7a23b18c2f5fd1102eab837cf699b6fc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <ui_id>f684831e-eef1-4644-a15f-d1bf1e38074d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7a23b18c2f5fd1102eab837cf699b6fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7a23b18c2f5fd1102eab837cf699b6fc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>7623b18c2f5fd1102eab837cf699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7a23b18c2f5fd1102eab837cf699b6fc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>b223b18c2f5fd1102eab837cf699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <value>state=-5</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7a23b18c2f5fd1102eab837cf699b6fc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7a23b18c2f5fd1102eab837cf699b6fc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>3223b18c2f5fd1102eab837cf699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7a23b18c2f5fd1102eab837cf699b6fc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>ba23b18c2f5fd1102eab837cf699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7a23b18c2f5fd1102eab837cf699b6fc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>7e23b18c2f5fd1102eab837cf699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7a23b18c2f5fd1102eab837cf699b6fc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7a23b18c2f5fd1102eab837cf699b6fc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Set Request State to Closed Complete</comment>
+        <display_text/>
+        <flow display_value="Fika Item Request">9e23b18c2f5fd1102eab837cf699b657</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>d323f18c2f5fd1102eab837cf699b66f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <ui_id>e41cd6d8-7ce5-4bc9-92cb-68aa000c86e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d323f18c2f5fd1102eab837cf699b66f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d323f18c2f5fd1102eab837cf699b66f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>1f23f18c2f5fd1102eab837cf699b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d323f18c2f5fd1102eab837cf699b66f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>df23f18c2f5fd1102eab837cf699b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d323f18c2f5fd1102eab837cf699b66f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d323f18c2f5fd1102eab837cf699b66f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>9b23f18c2f5fd1102eab837cf699b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{f684831e-eef1-4644-a15f-d1bf1e38074d.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d323f18c2f5fd1102eab837cf699b66f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>1723f18c2f5fd1102eab837cf699b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d323f18c2f5fd1102eab837cf699b66f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>d723f18c2f5fd1102eab837cf699b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d323f18c2f5fd1102eab837cf699b66f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d323f18c2f5fd1102eab837cf699b66f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9e23b18c2f5fd1102eab837cf699b657^sys_idNOT IN5f23f18c2f5fd1102eab837cf699b677,d723f18c2f5fd1102eab837cf699b677"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9e23b18c2f5fd1102eab837cf699b657</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.manager.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>5f23f18c2f5fd1102eab837cf699b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d140b557-6854-4c4f-8564-901185faee70</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9e23b18c2f5fd1102eab837cf699b657</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:29</sys_created_on>
+        <sys_id>d723f18c2f5fd1102eab837cf699b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>99dad230-98ad-4c60-a78d-57e3f724efe0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9e23b18c2f5fd1102eab837cf699b657^sys_idNOT IN3223b18c2f5fd1102eab837cf699b6bf,b223b18c2f5fd1102eab837cf699b6b7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9e23b18c2f5fd1102eab837cf699b657</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:28</sys_created_on>
+        <sys_id>3223b18c2f5fd1102eab837cf699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9e23b18c2f5fd1102eab837cf699b657</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:41:27</sys_created_on>
+        <sys_id>b223b18c2f5fd1102eab837cf699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:41:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9e23b18c2f5fd1102eab837cf699b657"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>7f46958c2fdbd1102eab837cf699b619</sys_id>
+        <latest_snapshot>9e23b18c2f5fd1102eab837cf699b657</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

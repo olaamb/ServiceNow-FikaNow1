@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Coffee">c4d3f5cc2f5fd1102eab837cf699b6fd</sc_cat_item>
+        <sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:46:12</sys_created_on>
+        <sys_id>d04471002f9fd1102eab837cf699b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.Coffee</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sc_cat_item_category_d04471002f9fd1102eab837cf699b648</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:46:12</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sc_cat_item_category_d04471002f9fd1102eab837cf699b648</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Coffee">c4d3f5cc2f5fd1102eab837cf699b6fd</sc_cat_item><sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 13:46:12</sys_created_on><sys_id>d04471002f9fd1102eab837cf699b648</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Software.Coffee</sys_name><sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package><sys_policy/><sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope><sys_update_name>sc_cat_item_category_d04471002f9fd1102eab837cf699b648</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 13:46:12</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1060709455</payload_hash>
+        <record_name>Software.Coffee</record_name>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:46:12</sys_created_on>
+        <sys_id>d84471002f9fd1102eab837cf699b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18480b0aabb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:46:12</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>504471004a9fd110f1a270ae15fc1e4b</update_guid>
+        <update_guid_history>504471004a9fd110f1a270ae15fc1e4b:-1060709455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Software.Coffee">015435002f9fd1102eab837cf699b66e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:46:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>03b560a8ce9744549afc38c8fe209dd9</sys_id>
+        <sys_metadata>d04471002f9fd1102eab837cf699b648</sys_metadata>
+        <sys_name>Software.Coffee</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_d04471002f9fd1102eab837cf699b648</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_d04471002f9fd1102eab837cf699b648">d84471002f9fd1102eab837cf699b64b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

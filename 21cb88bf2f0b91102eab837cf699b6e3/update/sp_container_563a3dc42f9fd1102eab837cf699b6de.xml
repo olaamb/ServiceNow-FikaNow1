@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>breadcrumbs-container</class_name>
+        <container_class_name/>
+        <name>Catalog Categories FikaNow - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="sc_category_fikanow">423a7d842f9fd1102eab837cf699b636</sp_page>
+        <subheader>true</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 14:12:17</sys_created_on>
+        <sys_id>563a3dc42f9fd1102eab837cf699b6de</sys_id>
+        <sys_name>Catalog Categories FikaNow - Container 1</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_container_563a3dc42f9fd1102eab837cf699b6de</sys_update_name>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

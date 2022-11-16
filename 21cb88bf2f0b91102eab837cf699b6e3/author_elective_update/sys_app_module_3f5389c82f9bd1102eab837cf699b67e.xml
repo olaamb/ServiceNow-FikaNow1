@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="FikaNow">241f24732fcb91102eab837cf699b6fa</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title> Fika Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_938844_fikanow_fika_task</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_938844_fikanow.u_fika_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 10:12:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f5389c82f9bd1102eab837cf699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Fika Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sys_app_module_3f5389c82f9bd1102eab837cf699b67e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 10:12:38</sys_updated_on>
+        <timeline_page/>
+        <title> Fika Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sys_app_module_3f5389c82f9bd1102eab837cf699b67e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="FikaNow">241f24732fcb91102eab837cf699b6fa</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title> Fika Tasks</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_938844_fikanow_fika_task</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_938844_fikanow.u_fika_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 10:12:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f5389c82f9bd1102eab837cf699b67e</sys_id><sys_mod_count>0</sys_mod_count><sys_name> Fika Tasks</sys_name><sys_overrides/><sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package><sys_policy/><sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope><sys_update_name>sys_app_module_3f5389c82f9bd1102eab837cf699b67e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 10:12:38</sys_updated_on><timeline_page/><title> Fika Tasks</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1721304373</payload_hash>
+        <record_name> Fika Tasks</record_name>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 10:12:38</sys_created_on>
+        <sys_id>7f5389c82f9bd1102eab837cf699b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847fed24fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 10:12:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b75389c82c9bd110d4b965b051268581</update_guid>
+        <update_guid_history>b75389c82c9bd110d4b965b051268581:1721304373</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=" Fika Tasks">d1c6c1402fdbd1102eab837cf699b68d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 10:27:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>372e7f375385492aac0a2ea8c58513a4</sys_id>
+        <sys_metadata>3f5389c82f9bd1102eab837cf699b67e</sys_metadata>
+        <sys_name> Fika Tasks</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sys_app_module_3f5389c82f9bd1102eab837cf699b67e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3f5389c82f9bd1102eab837cf699b67e">7f5389c82f9bd1102eab837cf699b681</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

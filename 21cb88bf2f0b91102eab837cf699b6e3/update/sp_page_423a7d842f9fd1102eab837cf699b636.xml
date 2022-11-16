@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>sc</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure>%title</dynamic_title_structure>
+        <id>sc_category_fikanow</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles>snc_external,snc_internal</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 14:12:16</sys_created_on>
+        <sys_id>423a7d842f9fd1102eab837cf699b636</sys_id>
+        <sys_name>sc_category_fikanow</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_page_423a7d842f9fd1102eab837cf699b636</sys_update_name>
+        <title>Catalog Categories FikaNow</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=423a7d842f9fd1102eab837cf699b636"/>
+</record_update>

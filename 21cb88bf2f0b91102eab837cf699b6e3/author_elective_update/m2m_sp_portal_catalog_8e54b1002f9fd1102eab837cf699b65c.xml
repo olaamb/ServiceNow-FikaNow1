@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sp_portal display_value="FikaNow">b9df74882f9bd1102eab837cf699b66e</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:46:36</sys_created_on>
+        <sys_id>8e54b1002f9fd1102eab837cf699b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.FikaNow</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_8e54b1002f9fd1102eab837cf699b65c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:46:36</sys_updated_on>
+    </m2m_sp_portal_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>m2m_sp_portal_catalog_8e54b1002f9fd1102eab837cf699b65c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sp_portal display_value="FikaNow">b9df74882f9bd1102eab837cf699b66e</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 13:46:36</sys_created_on><sys_id>8e54b1002f9fd1102eab837cf699b65c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.FikaNow</sys_name><sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package><sys_policy/><sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope><sys_update_name>m2m_sp_portal_catalog_8e54b1002f9fd1102eab837cf699b65c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 13:46:36</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+        <payload_hash>-1869398730</payload_hash>
+        <record_name>Service Catalog.FikaNow</record_name>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:46:36</sys_created_on>
+        <sys_id>c254b1002f9fd1102eab837cf699b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18480b108e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 13:46:36</sys_updated_on>
+        <type>Portal Catalog</type>
+        <update_guid>0e54b100689fd11061d3552d0cb6085f</update_guid>
+        <update_guid_history>0e54b100689fd11061d3552d0cb6085f:-1869398730</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.FikaNow">3a44c2042fdfd1102eab837cf699b60b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 14:56:16</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_catalog">m2m_sp_portal_catalog</sys_db_object>
+        <sys_id>282a96d686f541b094ae79722e4f8990</sys_id>
+        <sys_metadata>8e54b1002f9fd1102eab837cf699b65c</sys_metadata>
+        <sys_name>Service Catalog.FikaNow</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_catalog_8e54b1002f9fd1102eab837cf699b65c</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_catalog_8e54b1002f9fd1102eab837cf699b65c">c254b1002f9fd1102eab837cf699b660</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

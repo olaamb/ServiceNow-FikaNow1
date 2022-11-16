@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Fika Catalog">5562ca402fdfd1102eab837cf699b685</sc_catalog>
+        <sp_portal display_value="FikaNow">b9df74882f9bd1102eab837cf699b66e</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 14:55:07</sys_created_on>
+        <sys_id>b50446c02fdfd1102eab837cf699b6be</sys_id>
+        <sys_name>Fika Catalog.FikaNow</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_b50446c02fdfd1102eab837cf699b6be</sys_update_name>
+    </m2m_sp_portal_catalog>
+</record_update>

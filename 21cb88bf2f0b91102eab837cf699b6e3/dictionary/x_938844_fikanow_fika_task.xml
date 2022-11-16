@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="289e41482fdbd1102eab837cf699b6e0" extends="x_938844_fikanow_fika_request" max_length="40" name="x_938844_fikanow_fika_task" type="collection"/>
+</database>

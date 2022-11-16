@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
-        <access/>
+        <access>public</access>
         <actions_access>true</actions_access>
         <alter_access>true</alter_access>
         <caller_access/>
@@ -9,7 +9,7 @@
         <create_access>true</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
-        <is_extendable>false</is_extendable>
+        <is_extendable>true</is_extendable>
         <label>Fika Request</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_938844_fikanow_fika_request</name>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2022-11-13 15:39:07</from>
+        <glyph/>
+        <glyph_alt_text/>
+        <name>FikaNow New Arrivals</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>We have added Cinnamon Buns to our collection! </summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 15:40:52</sys_created_on>
+        <sys_id>06fd824c2fdfd1102eab837cf699b64b</sys_id>
+        <sys_name>FikaNow New Arrivals</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>announcement_06fd824c2fdfd1102eab837cf699b64b</sys_update_name>
+        <title>New Arrivals!</title>
+        <to>2022-11-14 15:39:22</to>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=06fd824c2fdfd1102eab837cf699b64b"/>
+</record_update>
