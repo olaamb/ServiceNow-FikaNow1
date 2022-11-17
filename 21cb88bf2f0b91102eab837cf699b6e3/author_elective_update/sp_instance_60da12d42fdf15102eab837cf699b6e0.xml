@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">79a412442f1315102eab837cf699b676</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 11:13:11</sys_created_on>
+        <sys_id>60da12d42fdf15102eab837cf699b6e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_instance_60da12d42fdf15102eab837cf699b6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 11:39:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p><strong>My fika request</strong></p>\r\n<p>1. ta reda p&aring; om det g&aring;r att nyttja en HTML widget och l&auml;nka till sidan d&auml;r mina request samlas</p>\r\n<p>2. annars nyttjar vi outofbox widget</p>\r\n<p>&nbsp;</p>",
+		"displayValue": "<p><strong>My fika request</strong></p>\n<p>1. ta reda p&aring; om det g&aring;r att nyttja en HTML widget och l&auml;nka till sidan d&auml;r mina request samlas</p>\n<p>2. annars nyttjar vi outofbox widget</p>\n<p>&nbsp;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=60da12d42fdf15102eab837cf699b6e0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sp_instance_60da12d42fdf15102eab837cf699b6e0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;79a412442f1315102eab837cf699b676&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-17 11:13:11&lt;/sys_created_on&gt;&lt;sys_id&gt;60da12d42fdf15102eab837cf699b6e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="FikaNow" source="x_938844_fikanow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="FikaNow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_60da12d42fdf15102eab837cf699b6e0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-17 11:39:54&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&lt;strong&gt;My fika request&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;1. ta reda p&amp;aring; om det g&amp;aring;r att nyttja en HTML widget och l&amp;auml;nka till sidan d&amp;auml;r mina request samlas&lt;/p&gt;\r\n&lt;p&gt;2. annars nyttjar vi outofbox widget&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&lt;strong&gt;My fika request&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;1. ta reda p&amp;aring; om det g&amp;aring;r att nyttja en HTML widget och l&amp;auml;nka till sidan d&amp;auml;r mina request samlas&lt;/p&gt;\n&lt;p&gt;2. annars nyttjar vi outofbox widget&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=60da12d42fdf15102eab837cf699b6e0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>846373518</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 11:39:54</sys_created_on>
+        <sys_id>08f066d82fdf15102eab837cf699b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1848563663c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 11:39:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>00f066d8dcdf1510d462da615f2b4842</update_guid>
+        <update_guid_history>00f066d8dcdf1510d462da615f2b4842:846373518,110b5a945ddf1510a13269553367532e:1951700984,3cda12d4c2df15109f6daf6c754dcae1:391494280</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8b7bd3102f5311102eab837cf699b66f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 15:55:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>58da3193088b49a0ac261c8cf7b11c40</sys_id>
+        <sys_metadata>60da12d42fdf15102eab837cf699b6e0</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sp_instance_60da12d42fdf15102eab837cf699b6e0</sys_update_name>
+        <sys_update_version display_value="sp_instance_60da12d42fdf15102eab837cf699b6e0">08f066d82fdf15102eab837cf699b642</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -4,31 +4,31 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <glyph>book</glyph>
+        <glyph>coffee</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <order>0</order>
+        <order>1</order>
         <roles/>
         <sc_cat_item/>
-        <sc_category/>
-        <short_description>Browse and search for articles, rate or submit feedback</short_description>
+        <sc_category display_value="FikaNow Assortment">1905b1402f9fd1102eab837cf699b6ec</sc_category>
+        <short_description>Browse our FikaNow assortment</short_description>
         <size>md</size>
-        <sp_column display_value="2">2da412442f1315102eab837cf699b629</sp_column>
-        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_column display_value="2">597bc2142f9f15102eab837cf699b64d</sp_column>
+        <sp_page display_value="sc_category_fikanow">423a7d842f9fd1102eab837cf699b636</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-16 16:07:45</sys_created_on>
-        <sys_id>6da412442f1315102eab837cf699b62b</sys_id>
-        <sys_name>Knowledge Base</sys_name>
+        <sys_created_on>2022-11-17 11:59:54</sys_created_on>
+        <sys_id>09852e502f1355102eab837cf699b62f</sys_id>
+        <sys_name>Fika Request</sys_name>
         <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
         <sys_policy/>
         <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
-        <sys_update_name>sp_instance_link_6da412442f1315102eab837cf699b62b</sys_update_name>
-        <title>Knowledge Base</title>
-        <type>page</type>
+        <sys_update_name>sp_instance_link_09852e502f1355102eab837cf699b62f</sys_update_name>
+        <title>Fika Request</title>
+        <type>sc_category</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {
@@ -37,5 +37,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=6da412442f1315102eab837cf699b62b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=09852e502f1355102eab837cf699b62f"/>
 </record_update>

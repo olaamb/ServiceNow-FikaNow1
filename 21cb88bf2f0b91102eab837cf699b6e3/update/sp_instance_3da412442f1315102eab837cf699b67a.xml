@@ -2,11 +2,11 @@
     <sp_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>default</color>
+        <color>warning</color>
         <css/>
         <glyph/>
         <id/>
-        <order>1</order>
+        <order>2</order>
         <roles/>
         <short_description/>
         <size>md</size>
@@ -27,6 +27,10 @@
 	"portal": {
 		"value": "true",
 		"displayValue": "true"
+	},
+	"max_number_of_elements_shown_on_the_list": {
+		"value": 5,
+		"displayValue": "5"
 	}
 }]]></widget_parameters>
     </sp_instance>

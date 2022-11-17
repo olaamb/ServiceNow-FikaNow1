@@ -4,18 +4,18 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <glyph>heart</glyph>
+        <glyph>coffee</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <order>0</order>
+        <order>1</order>
         <roles/>
         <sc_cat_item/>
         <sc_category display_value="FikaNow Assortment">1905b1402f9fd1102eab837cf699b6ec</sc_category>
         <short_description>Browse the fika assortment</short_description>
         <size>md</size>
-        <sp_column display_value="1">61a412442f1315102eab837cf699b625</sp_column>
+        <sp_column display_value="">61a412442f1315102eab837cf699b625</sp_column>
         <sp_page display_value="sc_category_fikanow">423a7d842f9fd1102eab837cf699b636</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
