@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Fruity Breakfast">62e894f82fdf11102eab837cf699b660</sc_cat_item>
+        <sc_catalog display_value="Fika Catalog">5562ca402fdfd1102eab837cf699b685</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 15:04:14</sys_created_on>
+        <sys_id>f6495cb82fdf11102eab837cf699b68e</sys_id>
+        <sys_name>Fika Catalog.Fruity Breakfast</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f6495cb82fdf11102eab837cf699b68e</sys_update_name>
+    </sc_cat_item_catalog>
+</record_update>

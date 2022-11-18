@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Strawberry Cake">f6c790782fdf11102eab837cf699b6a5</sc_cat_item>
+        <sc_catalog display_value="Fika Catalog">5562ca402fdfd1102eab837cf699b685</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:59:07</sys_created_on>
+        <sys_id>0c2858b82fdf11102eab837cf699b68c</sys_id>
+        <sys_name>Fika Catalog.Strawberry Cake</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0c2858b82fdf11102eab837cf699b68c</sys_update_name>
+    </sc_cat_item_catalog>
+</record_update>

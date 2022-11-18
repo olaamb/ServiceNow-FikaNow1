@@ -4,13 +4,13 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <glyph/>
+        <glyph>comment</glyph>
         <id/>
-        <order>1</order>
+        <order>2</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">75a412442f1315102eab837cf699b670</sp_column>
+        <sp_column display_value="1">4a71436c2f5b11102eab837cf699b6e5</sp_column>
         <sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -23,7 +23,16 @@
         <sys_update_name>sp_instance_75a412442f1315102eab837cf699b672</sys_update_name>
         <title>My Surveys</title>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"maxRecords": {
+		"value": null,
+		"displayValue": ""
+	},
+	"widgetTitle": {
+		"value": "My feedback on fika and delivery",
+		"displayValue": "My feedback on fika and delivery"
+	}
+}]]></widget_parameters>
     </sp_instance>
     <sys_translated_text action="delete_multiple" query="documentkey=75a412442f1315102eab837cf699b672"/>
 </record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>coffee</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="FikaNow Assortment">1905b1402f9fd1102eab837cf699b6ec</sc_category>
+        <short_description>Browse our FikaNow assortment</short_description>
+        <size>md</size>
+        <sp_column display_value="2">597bc2142f9f15102eab837cf699b64d</sp_column>
+        <sp_page display_value="sc_category_fikanow">423a7d842f9fd1102eab837cf699b636</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 11:59:54</sys_created_on>
+        <sys_id>09852e502f1355102eab837cf699b62f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Fika Request</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_instance_link_09852e502f1355102eab837cf699b62f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 12:01:58</sys_updated_on>
+        <title>Fika Request</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=09852e502f1355102eab837cf699b62f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sp_instance_link_09852e502f1355102eab837cf699b62f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;coffee&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category display_value="FikaNow Assortment"&gt;1905b1402f9fd1102eab837cf699b6ec&lt;/sc_category&gt;&lt;short_description&gt;Browse our FikaNow assortment&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;597bc2142f9f15102eab837cf699b64d&lt;/sp_column&gt;&lt;sp_page display_value="sc_category_fikanow"&gt;423a7d842f9fd1102eab837cf699b636&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-17 11:59:54&lt;/sys_created_on&gt;&lt;sys_id&gt;09852e502f1355102eab837cf699b62f&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fika Request&lt;/sys_name&gt;&lt;sys_package display_value="FikaNow" source="x_938844_fikanow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="FikaNow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_09852e502f1355102eab837cf699b62f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-17 12:01:58&lt;/sys_updated_on&gt;&lt;title&gt;Fika Request&lt;/title&gt;&lt;type&gt;sc_category&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=09852e502f1355102eab837cf699b62f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1134017542</payload_hash>
+        <record_name>Fika Request</record_name>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 12:01:59</sys_created_on>
+        <sys_id>17f56e502f1355102eab837cf699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18485779bbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 12:01:59</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>1ff56e50931355105ad78ee1891369f6</update_guid>
+        <update_guid_history>1ff56e50931355105ad78ee1891369f6:-1134017542,6be56290961355101abcec71d4fa644c:-1488736048,e3c56e504413551098cea368bf3b7ff1:2128795926,34b56e50c71355102c8959034de7b038:1210648721,05852e50c81355101cd9b5d82b065731:-34528919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fika Request">f73484b42f9f11102eab837cf699b6e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 13:32:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>6e80c60b1c1c4700bcb92352eb511931</sys_id>
+        <sys_metadata>09852e502f1355102eab837cf699b62f</sys_metadata>
+        <sys_name>Fika Request</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_09852e502f1355102eab837cf699b62f</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_09852e502f1355102eab837cf699b62f">17f56e502f1355102eab837cf699b6f7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

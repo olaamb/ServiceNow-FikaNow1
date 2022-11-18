@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.iconlink {
+  margin-top: 2rem;
+}
+
+.icon-link-background-default:hover {
+  background-color: #c97527;
+}
+
+.iconlink h2 {
+  font-weight: 700;
+  margin: 0;
+}</css>
+        <glyph>coffee</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="FikaNow Assortment">1905b1402f9fd1102eab837cf699b6ec</sc_category>
+        <short_description>Browse the FikaNow assortment</short_description>
+        <size>md</size>
+        <sp_column display_value="1">633380742f9f11102eab837cf699b668</sp_column>
+        <sp_page display_value="sc_category_fikanow">423a7d842f9fd1102eab837cf699b636</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 13:28:37</sys_created_on>
+        <sys_id>c66344742f9f11102eab837cf699b626</sys_id>
+        <sys_name>Request fika</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_instance_link_c66344742f9f11102eab837cf699b626</sys_update_name>
+        <title>Request fika</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=c66344742f9f11102eab837cf699b626"/>
+</record_update>

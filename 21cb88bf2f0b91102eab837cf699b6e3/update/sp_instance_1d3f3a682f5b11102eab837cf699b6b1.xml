@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">bad884f82f9f11102eab837cf699b6ee</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:30:39</sys_created_on>
+        <sys_id>1d3f3a682f5b11102eab837cf699b6b1</sys_id>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_instance_1d3f3a682f5b11102eab837cf699b6b1</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p><strong>Fika like a Swede!</strong></p>\r\n<p>Fika, the delightful custom of enjoying a coffee and a treat with friends, is as Swedish as ABBA. Surely it&rsquo;s just a coffee break? Not quite. It&rsquo;s much more than that.</p>\r\n<p><strong><a href=\"https://visitsweden.com/what-to-do/food-drink/swedish-kitchen/all-about-swedish-fika/\" target=\"_blank\" rel=\"noopener\">Fika source</a></strong></p>",
+		"displayValue": "<p><strong>Fika like a Swede!</strong></p>\n<p>Fika, the delightful custom of enjoying a coffee and a treat with friends, is as Swedish as ABBA. Surely it&rsquo;s just a coffee break? Not quite. It&rsquo;s much more than that.</p>\n<p><strong><a href=\"https://visitsweden.com/what-to-do/food-drink/swedish-kitchen/all-about-swedish-fika/\" target=\"_blank\" rel=\"noopener\">Fika source</a></strong></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d3f3a682f5b11102eab837cf699b6b1"/>
+</record_update>

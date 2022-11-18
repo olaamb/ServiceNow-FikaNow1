@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">abdff2e82f5b11102eab837cf699b678</sp_column>
+        <sp_widget display_value="Stock Footer">fc4be21acb01020000f8d856634c9c40</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:33:41</sys_created_on>
+        <sys_id>4aef36e82f5b11102eab837cf699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_instance_4aef36e82f5b11102eab837cf699b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 08:33:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4aef36e82f5b11102eab837cf699b61e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sp_instance_4aef36e82f5b11102eab837cf699b61e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">abdff2e82f5b11102eab837cf699b678</sp_column><sp_widget display_value="Stock Footer">fc4be21acb01020000f8d856634c9c40</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-18 08:33:41</sys_created_on><sys_id>4aef36e82f5b11102eab837cf699b61e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package><sys_policy/><sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope><sys_update_name>sp_instance_4aef36e82f5b11102eab837cf699b61e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-18 08:33:41</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4aef36e82f5b11102eab837cf699b61e"/></record_update>]]></payload>
+        <payload_hash>704047912</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:33:42</sys_created_on>
+        <sys_id>0aef36e82f5b11102eab837cf699b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18489df47d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 08:33:42</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>42ef36e8875b1110cd97e9f1c87a8c20</update_guid>
+        <update_guid_history>42ef36e8875b1110cd97e9f1c87a8c20:704047912</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">532453602fdb11102eab837cf699b62c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 10:02:15</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0d9e67b5bd1d4474810c3a6540b16890</sys_id>
+        <sys_metadata>4aef36e82f5b11102eab837cf699b61e</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sp_instance_4aef36e82f5b11102eab837cf699b61e</sys_update_name>
+        <sys_update_version display_value="sp_instance_4aef36e82f5b11102eab837cf699b61e">0aef36e82f5b11102eab837cf699b620</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

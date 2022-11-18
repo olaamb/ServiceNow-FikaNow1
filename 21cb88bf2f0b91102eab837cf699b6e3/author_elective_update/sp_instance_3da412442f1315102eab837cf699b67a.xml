@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>warning</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">79a412442f1315102eab837cf699b676</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 16:07:45</sys_created_on>
+        <sys_id>3da412442f1315102eab837cf699b67a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_instance_3da412442f1315102eab837cf699b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 08:11:31</sys_updated_on>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_number_of_elements_shown_on_the_list": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3da412442f1315102eab837cf699b67a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sp_instance_3da412442f1315102eab837cf699b67a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;warning&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;79a412442f1315102eab837cf699b676&lt;/sp_column&gt;&lt;sp_widget display_value="Approvals"&gt;f37aa302cb70020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-16 16:07:45&lt;/sys_created_on&gt;&lt;sys_id&gt;3da412442f1315102eab837cf699b67a&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Approvals&lt;/sys_name&gt;&lt;sys_package display_value="FikaNow" source="x_938844_fikanow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="FikaNow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3da412442f1315102eab837cf699b67a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-18 08:11:31&lt;/sys_updated_on&gt;&lt;title&gt;My Approvals&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_number_of_elements_shown_on_the_list": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3da412442f1315102eab837cf699b67a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1125427417</payload_hash>
+        <record_name>My Approvals</record_name>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:11:31</sys_created_on>
+        <sys_id>55da36a42f5b11102eab837cf699b6c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18489caf9950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 08:11:31</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5dda36a4f15b1110392d993541d72dc7</update_guid>
+        <update_guid_history>5dda36a4f15b1110392d993541d72dc7:1125427417,a45a3e64d85b111087179ea8efe87892:453862682,8c5a3e646f5b1110206959d78d7b791e:-217702053,a64afa642b5b11108a2d72f17b78f283:-889266788,a6893264e55b111045b3014b7dca2390:-1560831523,1318f6e0d35b1110aaf3e0bf527402dc:-889266788,38bb5b108d531110257418711a97b561:1125427417,f08b5710345311102bdc605ab4bcd61d:-655050794,5b7b17101653111073710c50c7184e5d:-1326615529,aa7cf258385355103a30a7d327d2bf8d:-1998180264,ea0c7a5863535510062ffe9d53bca4a8:1602567567,44de1e587fdf151081aaaf2e6f14df8f:-461164116,5d4cda187edf1510ac6cf0d2fe680b81:1554681955,1b3c9a18a7df1510ca02db6ac6de34ce:977297284,9a3c9a1898df15109c5144c2451d9d9d:399912613,b8fb561803df1510d7fca9d543ef93ab:977297284,68fb161824df1510493a18ba2956922e:-1402398685,04eb161806df1510bd27785ebc512f67:399912613,84eb5218f2df15104265ae02c5328d23:-1402398685,17dbd218d4df1510938acbcd99d398dc:399912613,1eda52d47edf15102e524c3aa6bf875d:977297284,b0da12d475df1510ad5730d911fb0de5:399912613,6aca12d45ddf1510609ec666b7bee775:-177472058,c47b82149d9f1510bf8408a338f7ad91:399912613,71a4124479131510ba50a49804f7c47c:-177472058</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approvals">1aacbee42f5b11102eab837cf699b672</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:19:30</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>141559b562c5433089c4b379687c7590</sys_id>
+        <sys_metadata>3da412442f1315102eab837cf699b67a</sys_metadata>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sp_instance_3da412442f1315102eab837cf699b67a</sys_update_name>
+        <sys_update_version display_value="sp_instance_3da412442f1315102eab837cf699b67a">55da36a42f5b11102eab837cf699b6c8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="FikaNow Home - Container 4">376b82142f9f15102eab837cf699b64c</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 10:06:04</sys_created_on>
+        <sys_id>197bc2142f9f15102eab837cf699b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_row_197bc2142f9f15102eab837cf699b648</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 10:06:04</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sp_row_197bc2142f9f15102eab837cf699b648</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="FikaNow Home - Container 4">376b82142f9f15102eab837cf699b64c</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-17 10:06:04</sys_created_on><sys_id>197bc2142f9f15102eab837cf699b648</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package><sys_policy/><sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope><sys_update_name>sp_row_197bc2142f9f15102eab837cf699b648</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-17 10:06:04</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1410640142</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 10:06:04</sys_created_on>
+        <sys_id>d97bc2142f9f15102eab837cf699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184850d7b900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 10:06:04</sys_updated_on>
+        <type>Row</type>
+        <update_guid>157bc214ad9f1510fa6f676eebbd474a</update_guid>
+        <update_guid_history>157bc214ad9f1510fa6f676eebbd474a:-1410640142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">9ef848f82f9f11102eab837cf699b624</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 13:52:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>0031ec8c36c2493680002cafa083c5d1</sys_id>
+        <sys_metadata>197bc2142f9f15102eab837cf699b648</sys_metadata>
+        <sys_name>1</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sp_row_197bc2142f9f15102eab837cf699b648</sys_update_name>
+        <sys_update_version display_value="sp_row_197bc2142f9f15102eab837cf699b648">d97bc2142f9f15102eab837cf699b64a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

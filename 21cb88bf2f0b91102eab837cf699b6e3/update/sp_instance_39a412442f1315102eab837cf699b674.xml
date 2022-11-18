@@ -4,37 +4,36 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <glyph>empty</glyph>
+        <glyph>heart-o</glyph>
         <id/>
-        <order>2</order>
+        <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">75a412442f1315102eab837cf699b670</sp_column>
+        <sp_column display_value="1">4a71436c2f5b11102eab837cf699b6e5</sp_column>
         <sp_widget display_value="Announcements">94c300c7e777320075c2a117c2f6a9e7</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 16:07:45</sys_created_on>
         <sys_id>39a412442f1315102eab837cf699b674</sys_id>
-        <sys_name>Announcements</sys_name>
+        <sys_name>Fika announcements</sys_name>
         <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
         <sys_policy/>
         <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
         <sys_update_name>sp_instance_39a412442f1315102eab837cf699b674</sys_update_name>
-        <title>Announcements</title>
+        <title>Fika announcements</title>
         <url/>
         <widget_parameters><![CDATA[{
 	"title": {
-		"value": "Announcements",
-		"displayValue": "Announcements"
+		"value": "Fika announcements",
+		"displayValue": "Fika announcements"
 	},
 	"glyph": {
-		"value": "empty",
+		"value": "heart-o",
 		"displayValue": ""
 	},
 	"type": {
-		"value": "",
-		"displayValue": ""
+		"value": ""
 	},
 	"paginate": {
 		"value": "true",
@@ -47,6 +46,10 @@
 	"view_all_page": {
 		"value": "ecc828d3e733320075c2a117c2f6a91f",
 		"displayValue": "announcements"
+	},
+	"use_display_style": {
+		"value": "",
+		"displayValue": ""
 	}
 }]]></widget_parameters>
     </sp_instance>

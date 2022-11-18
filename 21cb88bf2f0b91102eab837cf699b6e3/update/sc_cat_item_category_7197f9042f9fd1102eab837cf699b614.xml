@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Coffee">c4d3f5cc2f5fd1102eab837cf699b6fd</sc_cat_item>
+        <sc_cat_item display_value="Black Coffee">c4d3f5cc2f5fd1102eab837cf699b6fd</sc_cat_item>
         <sc_category display_value="FikaNow Assortment">1905b1402f9fd1102eab837cf699b6ec</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

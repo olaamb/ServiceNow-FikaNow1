@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">79a412442f1315102eab837cf699b676</sp_column>
+        <sp_widget display_value="My Requests">8cc0df25875023000f220cf888cb0bb5</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:05:51</sys_created_on>
+        <sys_id>da8932642f5b11102eab837cf699b64c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>My Fika Requests</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_instance_da8932642f5b11102eab837cf699b64c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 08:25:44</sys_updated_on>
+        <title>My Fika Requests</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "My Fika Requests",
+		"displayValue": "My Fika Requests"
+	},
+	"show_view": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"items_per_page": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=da8932642f5b11102eab837cf699b64c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</application>
+        <file_path/>
+        <instance_id>eb94dd42db5f00988aea21c405961938</instance_id>
+        <instance_name>dev102027</instance_name>
+        <name>sp_instance_da8932642f5b11102eab837cf699b64c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;79a412442f1315102eab837cf699b676&lt;/sp_column&gt;&lt;sp_widget display_value="My Requests"&gt;8cc0df25875023000f220cf888cb0bb5&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-18 08:05:51&lt;/sys_created_on&gt;&lt;sys_id&gt;da8932642f5b11102eab837cf699b64c&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Fika Requests&lt;/sys_name&gt;&lt;sys_package display_value="FikaNow" source="x_938844_fikanow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="FikaNow"&gt;21cb88bf2f0b91102eab837cf699b6e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_da8932642f5b11102eab837cf699b64c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-18 08:25:44&lt;/sys_updated_on&gt;&lt;title&gt;My Fika Requests&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "My Fika Requests",
+		"displayValue": "My Fika Requests"
+	},
+	"show_view": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"items_per_page": {
+		"value": 5,
+		"displayValue": "5"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=da8932642f5b11102eab837cf699b64c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-214313311</payload_hash>
+        <record_name>My Fika Requests</record_name>
+        <reverted_from/>
+        <source>809f84732f4b91102eab837cf699b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:25:44</sys_created_on>
+        <sys_id>d11ef6682f5b11102eab837cf699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18489d7fb930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 08:25:44</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d91ef668fd5b1110b0ade229a79d5e83</update_guid>
+        <update_guid_history>d91ef668fd5b1110b0ade229a79d5e83:-214313311,551ef6684c5b11103ec5a3d849336179:803020583,bc1ef668165b1110da94ca7cc3314661:-214313311,b81ef668d45b111025532a60cca85153:803020583,280eb668355b1110f256503fe86fa805:-214313311,e40e7668bd5b111090e7ebdb057aa9f9:803020583,c00e76680f5b11107b21caa62e08ddb7:-214313311,800e7668285b111015e1c44df73931ab:803020583,cefd7668415b1110f9ef75856298fa07:-214313311,b5fd3668075b11101bfcb86238b102fe:803020583,38fd36682e5b111097a3a992f5a4e6a5:-214313311,dbac7228ee5b11105ee7936a42d0c9e5:-1844352,c1da36a4555b1110f7865c2445cf0fb5:-214313311,accafee0a45b1110177ea34beea53349:-1844352,0aaafe64755b1110bfaff621e6a42aac:-578313693,307abe64395b111023be290ed7524739:826596905,426a7e24225b1110d4351d8a8864afec:1243087835,9a4afa64225b1110b3b9edf365c5b273:1920817427,d68932644d5b1110771e12547263834e:1952377044</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Fika Requests">bb1eb2282f5b11102eab837cf699b6d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 08:25:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1be10be9d57a4b988ab6ea2ae1180e40</sys_id>
+        <sys_metadata>da8932642f5b11102eab837cf699b64c</sys_metadata>
+        <sys_name>My Fika Requests</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_scope_delete display_value="">199f42c5b6b449f2b4df83dcbba7efa1</sys_scope_delete>
+        <sys_update_name>sp_instance_da8932642f5b11102eab837cf699b64c</sys_update_name>
+        <sys_update_version display_value="sp_instance_da8932642f5b11102eab837cf699b64c">d11ef6682f5b11102eab837cf699b684</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -16,7 +16,7 @@ $brand-success: #48C891 !default;&#13;
 $state-success-text: darken(desaturate(adjust-hue($brand-success, 3), 15.64%), 34.31) !default;&#13;
 &#13;
 //Navbar divider&#13;
-$sp-navbar-divider-color: #D67F2E !default;&#13;
+$sp-navbar-divider-color: #ffffff !default;&#13;
 $text-color: #2C2A27 !default;&#13;
 &#13;
 //Navbar link hover color&#13;
@@ -171,9 +171,23 @@ $qa-star-color-off: #ffffff;&#13;
 $list-group-link-color: $brand-primary;&#13;
 $list-group-hover-bg: lighten($panel-primary-heading-bg, 40%);&#13;
 &#13;
-$accessible-placeholder-gray: #565656;</css_variables>
-        <footer/>
-        <footer_fixed>true</footer_fixed>
+$accessible-placeholder-gray: #565656;&#13;
+&#13;
+section.page {&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+  display: -ms-flexbox;&#13;
+  -ms-flex-direction: column;&#13;
+}&#13;
+ &#13;
+section.page &gt; main.body,&#13;
+section.page &gt; section.body {&#13;
+  flex-grow: 1;&#13;
+  flex-shrink: 0;&#13;
+  -ms-flex-positive: 1;&#13;
+}</css_variables>
+        <footer display_value="FikaNow Footer">47d69b242fdb11102eab837cf699b636</footer>
+        <footer_fixed>false</footer_fixed>
         <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
         <name>FikaNow</name>
         <navbar_fixed>true</navbar_fixed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <name>Quattrocento Sans</name>
+        <source>url</source>
+        <sp_css/>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:36:11</sys_created_on>
+        <sys_id>ebc210742fdf11102eab837cf699b61c</sys_id>
+        <sys_name>Quattrocento Sans</sys_name>
+        <sys_package display_value="FikaNow" source="x_938844_fikanow">21cb88bf2f0b91102eab837cf699b6e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FikaNow">21cb88bf2f0b91102eab837cf699b6e3</sys_scope>
+        <sys_update_name>sp_css_include_ebc210742fdf11102eab837cf699b61c</sys_update_name>
+        <url>https://fonts.googleapis.com/css2?family=Quattrocento+Sans&amp;display=swap</url>
+    </sp_css_include>
+</record_update>
