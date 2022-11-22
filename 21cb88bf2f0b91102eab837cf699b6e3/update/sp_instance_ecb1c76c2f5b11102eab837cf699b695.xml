@@ -6,11 +6,11 @@
         <css/>
         <glyph/>
         <id/>
-        <order>2</order>
+        <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">c671436c2f5b11102eab837cf699b6e7</sp_column>
+        <sp_column display_value="2">e5f9efa92f9715102eab837cf699b6c3</sp_column>
         <sp_widget display_value="My Requests">8cc0df25875023000f220cf888cb0bb5</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>

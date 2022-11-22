@@ -15,7 +15,7 @@
 <p>NOTE! If you want milk or cream with your coffee, you have to order this separately!</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow_designer_flow>
+        <flow_designer_flow display_value="FikaNow2 Item Request">86e57b292fd715102eab837cf699b6e2</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>

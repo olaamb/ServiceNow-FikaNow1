@@ -16,7 +16,7 @@
 <p> </p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow_designer_flow>
+        <flow_designer_flow/>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -48,7 +48,7 @@
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>e6c814f82fdf11102eab837cf699b616</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=024898b82fdf11102eab837cf699b62e&amp;sysparm_preview=true", "summary");</preview>
-        <price>3.7568</price>
+        <price>3.7301</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -80,7 +80,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow/>
+        <workflow display_value="FikaNow2Workflow">99bc84fd2f1b15102eab837cf699b639</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=024898b82fdf11102eab837cf699b62e"/>
     <fx_price action="delete_multiple" query="id=024898b82fdf11102eab837cf699b62e"/>
@@ -90,14 +90,14 @@
         <field>price</field>
         <id>024898b82fdf11102eab837cf699b62e</id>
         <parent/>
-        <reference_amount>3.7568</reference_amount>
+        <reference_amount>3.7761</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 15:01:54</sys_created_on>
         <sys_id>bcc894b82fdf11102eab837cf699b672</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 15:02:22</sys_updated_on>
+        <sys_updated_on>2022-11-21 15:07:08</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

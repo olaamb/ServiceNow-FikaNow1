@@ -14,7 +14,7 @@
         <description><![CDATA[<p>Indulge and celebrate life!</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Fika Item Request">7f46958c2fdbd1102eab837cf699b619</flow_designer_flow>
+        <flow_designer_flow display_value="FikaNow2 Item Request">86e57b292fd715102eab837cf699b6e2</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -46,7 +46,7 @@
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>6e2790382fdf11102eab837cf699b681</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=dbd6dc382fdf11102eab837cf699b63d&amp;sysparm_preview=true", "summary");</preview>
-        <price>18.7838</price>
+        <price>18.6506</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -88,14 +88,14 @@
         <field>price</field>
         <id>dbd6dc382fdf11102eab837cf699b63d</id>
         <parent/>
-        <reference_amount>18.7838</reference_amount>
+        <reference_amount>18.8807</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 14:54:49</sys_created_on>
         <sys_id>74275c382fdf11102eab837cf699b6e2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 14:55:17</sys_updated_on>
+        <sys_updated_on>2022-11-21 15:20:23</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
